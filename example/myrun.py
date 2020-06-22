@@ -15,7 +15,7 @@ app.config["FILEUPLOAD_PREFIX"] = "/fileupload"
 app.config["FILEUPLOAD_ALLOWED_EXTENSIONS"] = ["png", "jpg", "jpeg", "gif"]
 
 #plugin
-app.config["BLOGGING_PLUGINS"] = ["plugins.tag_cloud","plugins.login"]
+app.config["BLOGGING_PLUGINS"] = ["plugins.tag_cloud","plugins.add_view_login"]
 
 # extensions
 engine = create_engine('sqlite:////tmp/blog.db')
